@@ -1,0 +1,83 @@
+/* ReplyEmail.css */
+.reply-email {
+    width: 500px;
+    border: 1px solid #ccc;
+    background-color: #333; /* Background color as per the example */
+    color: white; /* Text color */
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .reply-email-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #444; /* Slightly darker header */
+    font-weight: bold;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .email-input-group {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .email-input-group label {
+    width: 70px;
+    color: #aaa; /* Label color */
+  }
+  
+  .email-input-group input {
+    flex: 1;
+    padding: 5px;
+    background-color: #555; /* Input background */
+    border: none;
+    color: white;
+  }
+  
+  .email-body {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: #222; /* Darker background for the text area */
+    border: none;
+    color: white;
+    resize: none;
+  }
+  
+  .email-footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    border-top: 1px solid #444;
+  }
+  
+  .send-button,
+  .cancel-button {
+    padding: 5px 15px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #007bff; /* Blue send button */
+  }
+  
+  .cancel-button {
+    background-color: #666; /* Grey cancel button */
+  }
+  
+  .send-button:hover,
+  .cancel-button:hover {
+    opacity: 0.8;
+  }
+  

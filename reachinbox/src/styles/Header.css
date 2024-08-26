@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282828; 
+  color: white; 
+}
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  height: 40px; 
+  margin-right: 110px;
+  background-color: #000;
+}
+
+.brand-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.workspace {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
+
+.workspace span {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.icon-dropdown {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white; 
+}
+
+.theme-toggle {
+  cursor: pointer;
+}
+
+.icon-sun {
+  font-size: 18px;
+  
+}

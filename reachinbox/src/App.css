@@ -1,0 +1,80 @@
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar {
+
+  background-color: #1e1e1e; 
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  
+  background-color: #f0f0f0;
+}
+
+.header {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #333; 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Header.css */
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Light Mode Styles */
+*.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light .header {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+.light .theme-toggle-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+/* Dark Mode Styles */
+*.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark .header {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark .theme-toggle-button {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
